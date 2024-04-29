@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap'); /*Madimi One*/
+
+body{
+    background-color: #DEF0EE;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: #025959;
+    text-align: justify;
+}
+
+#principal{
+    font-family: 'Madimi One';
+    font-size: 5em;
+    color: #D1645D;
+    font-style: italic;
+}
+
+.partes{
+    background-color: #9ED6D7;
+    text-align: center;
+}
+
+.destaque{
+    background-color: #6CC5C6;
+}

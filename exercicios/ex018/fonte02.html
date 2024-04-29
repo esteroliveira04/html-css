@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Copyduck' ;
+            src: url('fontes/Copyduck.otf') format(opentype), url('fontes/Copyduck.ttf') 
+            format(truetype);
+            font-weight: normal;
+            font-style: normal;
+
+            /* se a fonte estiver no documento de CSS externo utilizar: '../fonts/nomedafonte.otf */
+
+            /*
+
+            tipos de format
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (apple advanced typhografy)
+            - svg
+
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Copyduck', 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium deserunt vel doloremque quaerat facere voluptas a eligendi molestiae iste, temporibus perferendis sequi perspiciatis in voluptate nihil, eveniet beatae maxime!</p>
+</body>
+</html>
