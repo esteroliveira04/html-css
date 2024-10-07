@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible boxes</title>
+    <style>
+        body{
+            background-color: rgba(250, 197, 205, 0.578);
+        }
+
+        div#container{
+            background-color: darkmagenta;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div.item{
+            background-color: pink;
+            border: 1px solid plum;
+            padding: 40px;
+        }
+
+        #i3{
+            order: 3;
+        }
+
+        #i1{
+            order: 8;
+        }
+
+        #i5{
+            order: -2;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4">D</div>
+        <div class="item" id="i5">E</div>
+        <div class="item" id="i6">F</div>
+    </div>
+</body>
+</html>

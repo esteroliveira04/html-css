@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible boxes</title>
+    <style>
+        body{
+            background-color: rgba(250, 197, 205, 0.578);
+        }
+
+        div#container{
+            background-color: darkmagenta;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div#item{
+            background-color: pink;
+            border: 1px solid plum;
+            flex-basis: 150px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="item">conteudo </div>
+        <div id="item">B</div>
+        <div id="item">conteudo grande</div>
+        <div id="item">D</div>
+        <div id="item">conteudo beeem maior</div>
+        <div id="item">F</div>
+    </div>
+</body>
+</html>
