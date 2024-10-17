@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible boxes</title>
+    <style>
+        body{
+            background-color: rgba(250, 197, 205, 0.578);
+        }
+
+        div#container{
+            background-color: darkmagenta;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .item{
+            background-color: pink;
+            border: 1px solid rgb(71, 0, 71);
+        }
+
+        #a{
+            flex: 0 1 200px;
+        }
+
+        #b{
+            flex: 2 0 200px;
+        }
+
+        #c{
+            flex: 1 2 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="item" id="a">A</div>
+        <div class="item" id="b">B</div>
+        <div class="item" id="c">C</div>
+    </div>
+</body>
+</html>
